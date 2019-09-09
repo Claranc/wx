@@ -1,1 +1,36 @@
 /* pages/setting/setting.wxss */
+.container-title{
+  padding-left: 2%;
+  background-color: gainsboro;
+  height: 80rpx;
+}
+
+.title{
+  padding-left: 5rpx;
+  text-align: left;
+  line-height: 80rpx;
+}
+
+.list{
+  padding-left: 5rpx;
+  height: 110rpx;
+  background-color:white;
+}
+
+.nav{
+  padding-left: 5rpx;
+  text-align: left;
+  line-height: 110rpx;
+}
+
+.line{
+  background-color: gainsboro;
+  height: 2rpx;
+}
+
+.context{
+  padding-left: 5rpx;
+  text-align: left;
+  font-size: 20rpx;
+  line-height: 0rpx;
+}

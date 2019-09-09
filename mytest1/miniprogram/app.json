@@ -2,7 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/write/write",
-    "pages/setting/setting"
+    "pages/setting/setting",
+    "pages/rowText/rowText",
+    "pages/columnText/columnText",
+    "pages/bankCard/bankCard",
+    "pages/language/language",
+    "pages/idCard/idCard"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,24 +16,26 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "tabBar":{
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "扫描",
-      "iconPath": "images/nav/home-off.png",
-      "selectedIconPath": "images/nav/home-on.png"
-    },
-    {
-      "pagePath": "pages/write/write",
-      "text": "记录",
-      "iconPath": "images/nav/cart-off.png",
-      "selectedIconPath": "images/nav/cart-on.png"
-    },
-    {
-      "pagePath": "pages/setting/setting",
-      "text": "设置",
-      "iconPath": "images/nav/my-off.png",
-      "selectedIconPath": "images/nav/my-on.png"
-    } ]
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "扫描",
+        "iconPath": "images/tabBar/scan.png",
+        "selectedIconPath": "images/tabBar/scan.png"
+      },
+      {
+        "pagePath": "pages/write/write",
+        "text": "记录",
+        "iconPath": "images/tabBar/write.png",
+        "selectedIconPath": "images/tabBar/write.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "images/tabBar/setting.png",
+        "selectedIconPath": "images/tabBar/setting.png"
+      }
+    ]
   }
 }

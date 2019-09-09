@@ -1,0 +1,11 @@
+<!--pages/rowText/rowText.wxml-->
+<view class="text-view">
+<text class="word">请保证光线充足，对其文字边缘以</text>
+<text class="word">获得更好的识别效果</text>
+</view>
+
+<camera device-position="back" flash="off" binderror="error"></camera>
+<button bindtap='chooseimage'>开始识别</button>
+<image src="{{tempFilePaths}}" ></image>
+
+<button bindtap='GET'>GET请求</button>

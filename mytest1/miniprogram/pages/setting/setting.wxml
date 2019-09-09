@@ -1,2 +1,51 @@
 <!--pages/setting/setting.wxml-->
-<text>pages/setting/setting.wxml</text>
+<view class="container-title">
+<text class="title">设置</text>
+</view>
+<view class="list">
+<navigator class="nav">OCR识别语言</navigator>
+</view>
+<view class="line"></view>
+
+<view class="list">
+<navigator class="nav">图片质量检测</navigator>
+</view>
+<view class="line"></view>
+
+<view class="list">
+<navigator class="nav">扫描质量和大小</navigator>
+</view>
+<view class="line"></view>
+
+<view class="container-title">
+<text class="title">关于</text>
+</view>
+<view class="list">
+<navigator class="nav">评价</navigator>
+</view>
+<view class="line"></view>
+<view class="list">
+<navigator class="nav">
+  版本
+  <text class="context">1.0</text>
+</navigator>
+</view>
+<view class="line"></view>
+
+<view class="container-title">
+<text class="title">联系</text>
+</view>
+<view class="list">
+  <navigator class="nav">
+    微信
+    <text class="context">huangchao777</text>
+  </navigator>
+</view>
+<view class="line"></view>
+<view class="list">
+<navigator class="nav">
+  邮箱
+  <text class="context">peterhuang0325@gmail.com</text>
+</navigator>
+</view>
+<view class="line"></view>
