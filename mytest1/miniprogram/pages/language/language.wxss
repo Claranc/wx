@@ -1,1 +1,40 @@
 /* pages/language/language.wxss */
+.page-body {
+  padding: 20rpx 0;
+  height: 100%;
+  background-color: #F8F8F8;
+}
+
+.textarea-wrp {
+  margin: 0 25rpx;
+  background-color: #fff;
+  height: 300rpx;
+}
+
+.page-section{
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+
+.icon-view{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  width: 100%;
+}
+
+.wenyanwen{
+  padding-left: 5%;
+  line-height: 100rpx;
+  width: 30%;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: left;
+}
+
+.transfer{
+  padding-top: 25rpx;
+  padding-left: 50%;
+  display: flex;
+  line-height: 100rpx;
+}

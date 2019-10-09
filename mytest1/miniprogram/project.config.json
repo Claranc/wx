@@ -58,6 +58,27 @@
 					"id": -1,
 					"name": "pages/setting/setting",
 					"pathName": "pages/setting/setting",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/rowText/rowText",
+					"pathName": "pages/rowText/rowText",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/idCard/idCard",
+					"pathName": "pages/idCard/idCard",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/language/language",
+					"pathName": "pages/language/language",
 					"scene": null
 				}
 			]

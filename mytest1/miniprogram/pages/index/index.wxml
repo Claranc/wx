@@ -7,10 +7,10 @@
   <view class="container-cancel">
     <button  type="default" hidden="{{inputShowed}}" bindtap="hideInput">取消</button>
   </view>
-</view> -->
+</view> 
 
 
-<!-- <view class="container-1">
+<view class="container-1">
     <block wx:for="{{iconType}}">
     <icon type="{{item}}" size="40"/>
   </block>

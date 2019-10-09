@@ -1,2 +1,18 @@
 <!--pages/language/language.wxml-->
-<text>pages/language/language.wxml</text>
+<view class="page-body">
+  <view class="page-section">
+    <view class="textarea-wrp">
+      <textarea auto-focus="true" style="height: 3em" />
+    </view>
+  </view>
+
+  <view class="icon-view">
+      <text class="wenyanwen">文言文->白话文</text>
+      <icon class="transfer" type="success" color="green"/>
+  </view>
+  <checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+</view>
