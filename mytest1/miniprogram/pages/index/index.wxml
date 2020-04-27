@@ -1,46 +1,51 @@
-<!--index.wxml-->
-<!-- <view class="container-1">
-  <view class="container-2">
-    <icon class="container-search" type="search"> </icon>
-    <input class="container-input" placeholder="搜索" value="{{inputVal}}"></input>
-  </view>
-  <view class="container-cancel">
-    <button  type="default" hidden="{{inputShowed}}" bindtap="hideInput">取消</button>
-  </view>
-</view> 
+
+<view class="page-body">
+
+  <!--index.wxml-->
+  <!-- <view class="container-1">
+    <view class="container-2">
+      <icon class="container-search" type="search"> </icon>
+      <input class="container-input" placeholder="搜索" value="{{inputVal}}"></input>
+    </view>
+    <view class="container-cancel">
+      <button  type="default" hidden="{{inputShowed}}" bindtap="hideInput">取消</button>
+    </view>
+  </view> 
 
 
-<view class="container-1">
-    <block wx:for="{{iconType}}">
-    <icon type="{{item}}" size="40"/>
-  </block>
-</view> -->
-<view class="container-func">
-  <view class="container-logo">
-    <image class="container-picture-left" src="../../images/scan/1.png" bindtap="goRowText"></image>
-  </view>
+  <view class="container-1">
+      <block wx:for="{{iconType}}">
+      <icon type="{{item}}" size="40"/>
+    </block>
+  </view> -->
+  <view class="container-func">
+    <view class="container-logo">
+      <image class="container-picture-left" src="../../images/scan/1.png" bindtap="goRowText"></image>
+    </view>
 
-  <view class="container-salt"></view>
+    <view class="container-salt"></view>
 
-  <view class="container-logo">
-    <image class="container-picture-right" src="../../images/scan/2.png" bindtap="goColumnText"></image>
-  </view>
-</view>
-
-<view class="container-func">
-  <view class="container-logo">
-    <image class="container-picture-left" src="../../images/scan/3.png" bindtap="goIDCard"></image>
+    <view class="container-logo">
+      <image class="container-picture-right" src="../../images/scan/2.png" bindtap="goColumnText"></image>
+    </view>
   </view>
 
-  <view class="container-salt"></view>
+  <view class="container-func">
+    <view class="container-logo">
+      <image class="container-picture-left" src="../../images/scan/3.png" bindtap="goIDCard"></image>
+    </view>
 
-  <view class="container-logo">
-    <image class="container-picture-right" src="../../images/scan/4.png" bindtap="goBankCard"></image>
-  </view>
-</view>
+    <view class="container-salt"></view>
 
-<view class="container-func">
-  <view class="container-logo">
-    <image class="container-picture-left" src="../../images/scan/5.png" bindtap="goLanguage"></image>
+    <view class="container-logo">
+      <image class="container-picture-right" src="../../images/scan/4.png" bindtap="goBankCard"></image>
+    </view>
   </view>
+
+  <view class="container-func">
+    <view class="container-logo">
+      <image class="container-picture-left" src="../../images/scan/5.png" bindtap="goLanguage"></image>
+    </view>
+  </view>
+
 </view>

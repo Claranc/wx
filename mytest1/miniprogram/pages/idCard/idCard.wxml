@@ -1,21 +1,27 @@
 <!--pages/idCard/idCard.wxml-->
-<view class="saomiao">
-<image class="picture" mode="aspectFit" src="../../images/func/idCard.png"></image>
+<view class="page-body">
+
+  <view class="saomiao">
+  <image class="picture" mode="aspectFit" src="../../images/func/idCard.png"></image>
+  </view>
+
+  <view class="idCard-view">
+  <image mode="widthFix" class="idCard" src="../../images/func/id_front_choice.png"></image>
+  <image mode="widthFix" class="idCard" src="../../images/func/id_back_choice.png"></image>
+  </view>
+
+  <view class="text-view">
+  <text class="word">请保证光线充足，对其文字边缘以</text>
+  <text class="word">获得更好的识别效果</text>
+  </view>
+
+  <button class="button" type="primary" bindtap='chooseimage'>开始识别</button>
+  <camera device-position="back" flash="off" binderror="error"></camera>
+
+
+  <!-- <image mode="aspectFit" src="{{tempFilePaths}}" ></image> -->
+
+  <!-- <button type="primary" bindtap='GET'>GET请求</button> -->
+
 </view>
 
-<view class="idCard-view">
-<image mode="widthFix" class="idCard" src="../../images/func/id_front_choice.png"></image>
-<image mode="widthFix" class="idCard" src="../../images/func/id_back_choice.png"></image>
-</view>
-
-<view class="text-view">
-<text class="word">请保证光线充足，对其文字边缘以</text>
-<text class="word">获得更好的识别效果</text>
-</view>
-
-<camera device-position="back" flash="off" binderror="error"></camera>
-
-<button class="button" type="primary" bindtap='chooseimage'>开始识别</button>
-<!-- <image mode="aspectFit" src="{{tempFilePaths}}" ></image> -->
-
-<!-- <button type="primary" bindtap='GET'>GET请求</button> -->

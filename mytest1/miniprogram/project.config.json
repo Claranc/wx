@@ -79,6 +79,13 @@
 					"id": -1,
 					"name": "pages/language/language",
 					"pathName": "pages/language/language",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/bankCard/bankCard",
+					"pathName": "pages/bankCard/bankCard",
 					"scene": null
 				}
 			]
