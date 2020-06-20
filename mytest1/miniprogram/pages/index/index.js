@@ -27,33 +27,39 @@ Page({
     });
   },
 
-  goRowText: function () {
+  gotoface: function () {
     wx.navigateTo({
-      url: "/pages/rowText/rowText"
+      url: "/pages/face/face"
     })
   },
 
-  goColumnText: function () {
-    wx.navigateTo({
-      url: "/pages/columnText/columnText"
-    })
-  },
-
-  goIDCard: function () {
-    wx.navigateTo({
-      url: "/pages/idCard/idCard"
-    })
-  },
-
-  goBankCard: function () {
-    wx.navigateTo({
-      url: "/pages/bankCard/bankCard"
-    })
-  },
-
-  goLanguage: function () {
+  gotolanguage: function () {
     wx.navigateTo({
       url: "/pages/language/language"
+    })
+  },
+
+  gotovegetable: function () {
+    wx.navigateTo({
+      url: "/pages/vegetable/vegetable"
+    })
+  },
+
+  gotoanimal: function () {
+    wx.navigateTo({
+      url: "/pages/animal/animal"
+    })
+  },
+
+  gotoemotion: function () {
+    wx.navigateTo({
+      url: "/pages/emotion/emotion"
+    })
+  },
+
+  goLogo: function () {
+    wx.navigateTo({
+      url: "/pages/logo/logo"
     })
   },
 

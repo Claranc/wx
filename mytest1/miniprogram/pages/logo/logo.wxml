@@ -1,0 +1,40 @@
+<!--pages/rowText/rowText.wxml-->
+<view class="page-body">
+  <view class="saomiao">
+  <image class="picture" mode="aspectFit" src="../../images/func/logo.png"></image>
+  </view>
+
+
+  <view class="text-view">
+  <text class="word">请使用单体清晰的照片，获得更好的识别效果</text>
+  <text class="word">广告位招租</text>
+    <view class="result">
+    {{process}}
+    </view>
+    <view class="result">
+    {{result1}}
+    </view>
+    <view class="result">
+    {{result2}}
+    </view>
+    <view class="result">
+    {{result3}}
+    </view>
+    <view class="result">
+    {{result4}}
+    </view>
+    <view class="result">
+    {{result5}}
+    </view>
+  </view>
+
+  <button class="button" type="primary" bindtap='chooseimage'>开始识别</button>
+  <camera device-position="back" flash="off" binderror="error"></camera>
+
+  <!-- <view>
+  <image mode="aspectFit" src="{{tempFilePaths}}" ></image>
+  </view> -->
+
+  
+</view>
+

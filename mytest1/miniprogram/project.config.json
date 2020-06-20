@@ -4,10 +4,10 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
-		"minified": true,
+		"minified": false,
 		"newFeature": true,
 		"coverView": true,
 		"autoAudits": false,
@@ -18,11 +18,13 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		}
+		},
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.2",
-	"appid": "wx650d7230e82ce1e7",
+	"appid": "wxee84f566035890c3",
 	"projectname": "miniprogram-test-1",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -63,15 +65,15 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/rowText/rowText",
-					"pathName": "pages/rowText/rowText",
+					"name": "pages/face/face",
+					"pathName": "pages/face/face",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "pages/idCard/idCard",
-					"pathName": "pages/idCard/idCard",
+					"name": "pages/vegateble/vegateble",
+					"pathName": "pages/vegateble/vegateble",
 					"query": "",
 					"scene": null
 				},
@@ -84,8 +86,8 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/bankCard/bankCard",
-					"pathName": "pages/bankCard/bankCard",
+					"name": "pages/emotion/emotion",
+					"pathName": "pages/emotion/emotion",
 					"scene": null
 				}
 			]

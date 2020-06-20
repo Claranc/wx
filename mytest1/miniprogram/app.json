@@ -1,18 +1,18 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/write/write",
     "pages/setting/setting",
-    "pages/rowText/rowText",
-    "pages/columnText/columnText",
-    "pages/bankCard/bankCard",
+    "pages/face/face",
+    "pages/animal/animal",
+    "pages/emotion/emotion",
     "pages/language/language",
-    "pages/idCard/idCard"
+    "pages/vegetable/vegetable",
+    "pages/logo/logo"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#2e5e86",
-    "navigationBarTitleText": "文脉通",
+    "navigationBarTitleText": "巨佬必备工具",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
@@ -20,15 +20,9 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "扫描",
+        "text": "工具",
         "iconPath": "images/tabBar/scan.png",
         "selectedIconPath": "images/tabBar/scan.png"
-      },
-      {
-        "pagePath": "pages/write/write",
-        "text": "记录",
-        "iconPath": "images/tabBar/write.png",
-        "selectedIconPath": "images/tabBar/write.png"
       },
       {
         "pagePath": "pages/setting/setting",

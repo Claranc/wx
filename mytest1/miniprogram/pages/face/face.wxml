@@ -1,0 +1,34 @@
+<!--pages/rowText/rowText.wxml-->
+<view class="page-body">
+  <view class="saomiao">
+  <image class="picture" mode="aspectFit" src="../../images/func/face.jpg"></image>
+  </view>
+
+
+  <view class="text-view">
+  <text class="word">请使用高清正面照片，获得更好的识别效果</text>
+  <text class="word">广告位招租</text>
+    <view class="result">
+    {{gender}}
+    </view>
+    <view class="result">
+    {{score}}
+    </view>
+    <view class="result">
+    {{emotion}}
+    </view>
+    <view class="result">
+    {{process}}
+    </view>
+  </view>
+
+  <button class="button" type="primary" bindtap='chooseimage'>开始识别</button>
+  <camera device-position="back" flash="off" binderror="error"></camera>
+
+  <!-- <view>
+  <image mode="aspectFit" src="{{tempFilePaths}}" ></image>
+  </view> -->
+
+  
+</view>
+

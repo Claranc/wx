@@ -9,7 +9,7 @@ Page({
     inputImg: '',
     outputWord: '',
     base64Data: '',
-    gender:'',
+    animalType:'',
     score:'',
     process:'',
   },
@@ -28,6 +28,8 @@ Page({
         console.log("image choose success. " + res.tempFilePaths)
         _this.setData({
           tempFilePaths: res.tempFilePaths,
+          score:'',
+          animalType:'',
           process: "执行中..."
         })
         imgBase64 = wx.getFileSystemManager().readFileSync(res.tempFilePaths[0], "base64");
@@ -45,24 +47,32 @@ Page({
             var token = res.data.access_token
             // 评分
             wx.request({
-              url: 'https://aip.baidubce.com/rest/2.0/face/v3/detect?access_token='+token,
+              url: 'https://aip.baidubce.com/rest/2.0/image-classify/v1/plant?access_token='+token,
               method: "POST",
               data:{
                 image: imgBase64,
-                image_type: 'BASE64',
-                face_field: 'beauty,gender',
               },
               header: {
-                'content-type': 'application/json;charset=utf-8' // 默认值
+                'content-type': 'application/x-www-form-urlencoded;charset=utf-8' // 默认值
               },
-              success(res) {
-                console.log(res.data.result.face_list[0].beauty)
+              success: function(res) {
+                console.log(res.data)
+                if(res.data.error_code != null) {
+                  _this.setData({
+                    score:"",
+                    process:res.data.error_msg
+                  })
+                }
                 _this.setData({
-                  gender:res.data.result.face_list[0].gender.type,
-                  score:res.data.result.face_list[0].beauty,
-                  process:'',
+                  score:"可信度: "+res.data.result[0].score,
+                  process:"植物种类: " + res.data.result[0].name
                 })
-              }
+              },
+              fail: function(res) {
+                _this.setData({
+                  process:'检测失败',
+                })
+              },
             })
           },
         })

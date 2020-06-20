@@ -20,31 +20,37 @@
   </view> -->
   <view class="container-func">
     <view class="container-logo">
-      <image class="container-picture-left" src="../../images/scan/1.png" bindtap="goRowText"></image>
+      <image class="container-picture-left" src="../../images/scan/face.png" bindtap="gotoface"></image>
     </view>
 
     <view class="container-salt"></view>
 
     <view class="container-logo">
-      <image class="container-picture-right" src="../../images/scan/2.png" bindtap="goColumnText"></image>
+      <image class="container-picture-right" src="../../images/scan/language.png" bindtap="gotolanguage"></image>
     </view>
   </view>
 
   <view class="container-func">
     <view class="container-logo">
-      <image class="container-picture-left" src="../../images/scan/3.png" bindtap="goIDCard"></image>
+      <image class="container-picture-left" src="../../images/scan/vegetable.png" bindtap="gotovegetable"></image>
     </view>
 
     <view class="container-salt"></view>
 
     <view class="container-logo">
-      <image class="container-picture-right" src="../../images/scan/4.png" bindtap="goBankCard"></image>
+      <image class="container-picture-right" src="../../images/scan/animal.png" bindtap="gotoanimal"></image>
     </view>
   </view>
 
   <view class="container-func">
     <view class="container-logo">
-      <image class="container-picture-left" src="../../images/scan/5.png" bindtap="goLanguage"></image>
+      <image class="container-picture-left" src="../../images/scan/emotion.png" bindtap="gotoemotion"></image>
+    </view>
+
+    <view class="container-salt"></view>
+
+    <view class="container-logo">
+      <image class="container-picture-right" src="../../images/scan/logo.png" bindtap="goLogo"></image>
     </view>
   </view>
 

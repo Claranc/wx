@@ -1,23 +1,22 @@
 <!--pages/rowText/rowText.wxml-->
 <view class="page-body">
   <view class="saomiao">
-  <image class="picture" mode="aspectFit" src="../../images/func/saomiao.png"></image>
+  <image class="picture" mode="aspectFit" src="../../images/func/animal.jpg"></image>
   </view>
 
-  <view>
-    <view>
-    性别:{{gender}}
+
+  <view class="text-view">
+  <text class="word">请使用单体清晰的照片，获得更好的识别效果</text>
+  <text class="word">广告位招租</text>
+    <view class="result">
+    {{score}}
     </view>
-    <view >
-    分数:{{score}}
+    <view class="result">
+    {{animalType}}
     </view>
-    <view >
+    <view class="result">
     {{process}}
     </view>
-  </view>
-  <view class="text-view">
-  <text class="word">请保证光线充足，对其文字边缘以</text>
-  <text class="word">获得更好的识别效果</text>
   </view>
 
   <button class="button" type="primary" bindtap='chooseimage'>开始识别</button>

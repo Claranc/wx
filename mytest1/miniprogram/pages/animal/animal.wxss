@@ -1,13 +1,13 @@
-/* pages/bankCard/bankCard.wxss */
+/* pages/RowText/RowText.wxss */
 .page-body {
   width: 100%;
   height: 1600rpx;
-  background-color: #F8F8F8;
+  background-color: #FFF;
   overflow: hidden;
 }
 
 .text-view{
-  margin-top: 350rpx;
+  margin-top: 200rpx;
   height: 70rpx;
   width: 100%;
 }
@@ -20,14 +20,13 @@
   font-size: 30rpx;
 }
 
-.button-view{
-  height: 200rpx;
-}
-
-.button{
-  margin-top: 30rpx;
-  margin-left:20%;
-  margin-right: 20%;
+.result{
+  margin-top: 15rpx;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
 }
 
 .saomiao{
@@ -42,3 +41,12 @@
   justify-content: center;
 }
 
+.button-view{
+  height: 200rpx;
+}
+
+.button{
+  margin-top: 280rpx;
+  margin-left:20%;
+  margin-right: 20%;
+}

@@ -1,13 +1,13 @@
-/* pages/idCard/idCard.wxss */
+/* pages/RowText/RowText.wxss */
 .page-body {
   width: 100%;
   height: 1600rpx;
-  background-color: #F8F8F8;
+  background-color: #FFF;
   overflow: hidden;
 }
 
 .text-view{
-  margin-top: 100rpx;
+  margin-top: 200rpx;
   height: 70rpx;
   width: 100%;
 }
@@ -20,31 +20,25 @@
   font-size: 30rpx;
 }
 
+.result{
+  margin-top: 10rpx;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+
 .saomiao{
-  height: 700rpx;
+  height: 600rpx;
   width: 100%;
 }
 
 .picture{
-  padding-top:100rpx;
+  padding-top:250rpx;
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.idCard-view{
-  display: flex;
-  flex-direction: row;
-  height: 200rpx;
-  width: 100%;
-  justify-content: center;
-}
-
-.idCard{
-  padding-left: 30rpx;
-  padding-right: 30rpx;
-  display: flex;
-  width: 150rpx;
 }
 
 .button-view{
@@ -52,7 +46,7 @@
 }
 
 .button{
-  margin-top: 30rpx;
+  margin-top: 280rpx;
   margin-left:20%;
   margin-right: 20%;
 }

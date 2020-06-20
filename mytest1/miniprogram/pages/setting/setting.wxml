@@ -1,19 +1,19 @@
 <!--pages/setting/setting.wxml-->
 <view class="container-title">
-<text class="title">设置</text>
+<text class="title">介绍</text>
 </view>
 <view class="list">
-<navigator class="nav">OCR识别语言</navigator>
-</view>
-<view class="line"></view>
-
-<view class="list">
-<navigator class="nav">图片质量检测</navigator>
+<navigator class="nav">常用图片识别</navigator>
 </view>
 <view class="line"></view>
 
 <view class="list">
-<navigator class="nav">扫描质量和大小</navigator>
+<navigator class="nav">文字情感识别</navigator>
+</view>
+<view class="line"></view>
+
+<view class="list">
+<navigator class="nav">常用翻译</navigator>
 </view>
 <view class="line"></view>
 
@@ -38,14 +38,14 @@
 <view class="list">
   <navigator class="nav">
     微信
-    <text class="context">huangchao777</text>
+    <text class="context">Goddstte</text>
   </navigator>
 </view>
 <view class="line"></view>
 <view class="list">
 <navigator class="nav">
   邮箱
-  <text class="context">peterhuang0325@gmail.com</text>
+  <text class="context">fengxinjie@bytedance.com</text>
 </navigator>
 </view>
 <view class="line"></view>

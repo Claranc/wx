@@ -12,19 +12,19 @@
     </form>
   </view>
 
-  <view class="icon-view">
-      <picker class="select" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
-    <view class="select">
-      切换: {{array[index]}}
-    </view>
-  </picker>
-  </view>
-
   <view>
   {{process}}
   <view>
-  {{outputVal}}
+  {{optimistic}}
   </view>
+  <view>
+  {{neutral}}
+  </view>
+  <view>
+  {{pessimistic}}
+  </view>
+
+
 
   </view>
 </view>
